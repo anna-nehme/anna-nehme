@@ -1,7 +1,7 @@
 /* Write some CSS below */
 body {
     font-family: Overpass;
-    color: #0C852A
+    color: #0C852A;
     font-size: 18px;
     margin: 0;
 }
@@ -103,6 +103,27 @@ opacity: 0.7;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
 }
+
+@media (max-width: 768px){
+  .card-green{
+    flex-direction: coloum;
+    gap:2rem;
+  }
+  .card {
+    width: 100%;
+  }
+
+}
+   
+@media screen and (min-width: 769px) and (max-width: 968px) {
+  
+} 
+
+@media screen and (max-width:1364px) {
+  
+}
+
+
 
 @media (min-width: 300px) {
     .container {
